@@ -311,7 +311,7 @@
                                                 <span class="nav-link-icon d-md-none d-lg-inline-block">
                                                     <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11 19h-6a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4" /><path d="M11 16h6a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2z" /><path d="M15 11l-2 2l-2 -2" /><path d="M17 19l2 2l2 -2" /></svg>
                                                 </span>
-                                                <span class="nav-link-title"> Operasional Sales </span>
+                                                <span class="nav-link-title"> Operasional </span>
                                             </a>
                                             <div class="dropdown-menu">
                                                 <a class="dropdown-item {{ Request::routeIs('operasional_sales.pengiriman') ? 'active' : '' }}" href="{{ route('operasional_sales.pengiriman') }}">
