@@ -16,7 +16,7 @@
     <link href="{{ asset('assets/tabler/dashboard/dist/css/tabler.css?') . $v }}" rel="stylesheet" />
     <!-- END GLOBAL MANDATORY STYLES -->
     <!-- BEGIN CUSTOM FONT -->
-    <!-- <link href="{{ asset('assets/img/logo.svg') }}" rel="icon"> -->
+    <link href="{{ asset('assets/img/logo.svg') }}" rel="icon">
     <style>
         @import url("https://rsms.me/inter/inter.css");
     </style>
